@@ -24,7 +24,7 @@ scripts/claim-audit.sh     Fails if internal-only figures or removed content app
 
 1. **Contact:** `email` and `linkedin` live in `SITE_CONFIG` at the top of `script.js`. Every "Email me" and LinkedIn link on every page reads from it.
 2. **Headshot:** the About section shows an SVG emblem for now. To use a photo, add `assets/img/headshot.jpg` and swap the emblem for the `<img>` tag given in the comment there.
-3. **Domain:** the site is currently served at `https://doctorrd.github.io/portfolio/`. To move to a custom domain: buy it, point DNS at GitHub Pages, add a `CNAME` file with the domain, and search-and-replace `https://doctorrd.github.io/portfolio` with the new URL.
+3. **Domain:** the site is served at `https://www.dharmdeepsinh-gohil.com`. The `CNAME` file and the canonical, OG, sitemap and robots URLs all use it.
 4. **Field notes:** the three essay cards say "Coming soon". Link them once the articles are written.
 
 ## Content rules (from Master Career Report v0.5)
