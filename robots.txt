@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.dharmdeepsinh-gohil.com/sitemap.xml
+Sitemap: https://doctorrd.github.io/portfolio/sitemap.xml
