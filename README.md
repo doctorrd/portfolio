@@ -22,8 +22,8 @@ scripts/claim-audit.sh     Fails if internal-only figures or removed content app
 
 ## Before going live: edit these
 
-1. **Contact:** set `email` and `linkedin` in `SITE_CONFIG` at the top of `script.js`. Every "Email me" and LinkedIn link on every page reads from it.
-2. **Headshot:** add `assets/img/headshot.jpg`, then replace the monogram in the About section of `index.html` (the comment there shows the `<img>` tag to use).
+1. **Contact:** `email` and `linkedin` live in `SITE_CONFIG` at the top of `script.js`. Every "Email me" and LinkedIn link on every page reads from it.
+2. **Headshot:** the About section shows an SVG emblem for now. To use a photo, add `assets/img/headshot.jpg` and swap the emblem for the `<img>` tag given in the comment there.
 3. **Domain:** the canonical, OG, sitemap and robots URLs assume `https://www.dharmdeepsinh-gohil.com`. If you use that domain, add a `CNAME` file containing `www.dharmdeepsinh-gohil.com`; otherwise search-and-replace the domain.
 4. **Field notes:** the three essay cards say "Coming soon". Link them once the articles are written.
 

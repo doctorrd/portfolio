@@ -3,8 +3,8 @@
    ========================================================= */
 const SITE_CONFIG = {
   name: 'Dharmdeepsinh Gohil',
-  email: 'hello@example.com',                               // TODO: replace with your public email
-  linkedin: 'https://www.linkedin.com/in/your-profile/',   // TODO: replace with your LinkedIn URL
+  email: 'connect.dharmdeepsinh.gohil@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/dharmdeepsinh',
   emailSubject: 'Project enquiry via portfolio'
 };
 

@@ -784,3 +784,9 @@ section { position: relative; }
   .viz-card { padding: 18px; }
   .rfm { min-width: 560px; }
 }
+
+/* about emblem (placeholder for a headshot) */
+.portrait .emblem { width: 76%; height: auto; overflow: visible; margin-bottom: 56px; }
+.portrait .emblem-ring { transform-origin: 160px 160px; animation: emblem-spin 90s linear infinite; }
+@keyframes emblem-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .portrait .emblem-ring { animation: none; } }
